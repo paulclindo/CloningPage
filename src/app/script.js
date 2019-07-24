@@ -1,3 +1,4 @@
+import '../styles.scss'
 const UI = require("./ui");
 const Github = require("./github");
 

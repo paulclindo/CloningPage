@@ -1,0 +1,31 @@
+$colorPrimary: #1c1c1c;
+$colorAlternare: #f8f9fa;
+
+body{
+  color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: $colorPrimary;
+}
+
+.hero{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-hero {
+  width: 100%;
+  background: #f8f9fa;
+  img{
+    width: 100%;
+  }
+}
+
+.content-hero{
+  text-align: center;
+}
+
